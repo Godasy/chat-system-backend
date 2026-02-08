@@ -1,0 +1,12 @@
+# 排除node_modules（核心！）
+node_modules/
+
+# 排除环境变量文件（避免密钥泄露）
+.env
+
+# 排除日志文件
+*.log
+
+# 排除临时文件
+*.tmp
+.DS_Store
